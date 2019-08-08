@@ -1,11 +1,11 @@
 # PS4 DualShock controller + Tello
-##Use PlayStation 4 DualShock controller control DJI Tello drone
+## Use PlayStation 4 DualShock controller control DJI Tello drone
 
-###Preparation 
+### Preparation 
 1. Connect dualshock controller by USB cable. (I tried to use bluetooth, the gods4 lib not able to to make a connection)
 2. Power on Tello
 3. Connect computer wifi to Tello-XXXXX
-###Build
+### Build
 ```
 go build
 ```
@@ -33,7 +33,7 @@ go run tello
 
     LEFT -> CLOCKWISE   
     RIGHT -> COUNTER_CLOCKWISE
-###Reference
+### Reference
 [kpeu3i/gods4](https://github.com/kpeu3i/gods4)  
 [gobot](https://gobot.io/)  
 [Automating DJI Tello Drone using GOBOT](https://medium.com/tarkalabs/automating-dji-tello-drone-using-gobot-2b711bf42af6)
