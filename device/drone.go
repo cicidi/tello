@@ -98,6 +98,8 @@ func control(drone *tello.Driver, command *model.Command) {
 		_ = drone.Land()
 	case model.UP:
 		_ = drone.Up(command.Val)
+	case model.DOWN:
+		_ = drone.Down(command.Val)
 	case model.LEFT:
 		_ = drone.Left(command.Val)
 	case model.RIGHT:

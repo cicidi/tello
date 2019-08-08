@@ -16,7 +16,7 @@ import (
 const (
 	stickRadius = 127
 	moveSpeed   = 30
-	upDownSpeed = 60
+	upDownSpeed = 30
 	turnSpeed   = 60
 	offsetError = 30
 )
