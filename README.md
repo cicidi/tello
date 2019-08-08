@@ -1,5 +1,8 @@
 # PS4 DualShock controller + Tello
-## Use PlayStation 4 DualShock controller control DJI Tello drone
+### Use PlayStation 4 DualShock controller control DJI Tello drone
+###Youtube: https://www.youtube.com/watch?v=WId8eJ22bAA
+
+
 
 ### Preparation 
 1. Connect dualshock controller by USB cable. (I tried to use bluetooth, the gods4 lib not able to to make a connection)
